@@ -1,0 +1,95 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #F4F4F4;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: #424D4D;
+    color: #FFFFFF;
+    padding-top: 30px;
+    min-height: 60px;
+    border-bottom: #94B0DA 3px solid;
+}
+
+header a{
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #nickname{
+    float: left;
+}
+
+header #nickname h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+#home_image{
+    min-height: 400px;
+    background: url('../img/homeimage.jpg') 0px -100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#home_image h1{
+    margin-top: 50px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#intro_msg{
+    min-height: 70px;
+    background: #424D4D;
+    color: #FFFFFF;
+}
+
+footer{
+    min-height: 30px;
+    background: #424D4D;
+    border-top: #94B0DA 3px solid;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0 0 1px 0;
+}
+
+@media(max-width: 768px){
+    header #nickname, 
+    header nav, 
+    header nav li{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    
+    header{
+        padding-bottom: 20px;
+    }
+}
